@@ -45,7 +45,7 @@ async function displayingInSeq() {
                             setTimeout(()=>{
                                 createElement.innerText += index
                                 }
-                            ,i*300)
+                            ,i*400)
                         })
                 }
                
@@ -60,7 +60,7 @@ async function displayingInSeq() {
             await new Promise((resolve)=>{
                 setTimeout(() => {
                  resolve()
-                }, Math.floor(Math.random() * 6) * 1000);
+                }, Math.floor(Math.random() * 8) * 1000);
                  })
         }
         }
